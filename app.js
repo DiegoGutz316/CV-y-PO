@@ -49,7 +49,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
         const body = `Nombre: ${nombre}%0D%0AEmail: ${email}%0D%0A%0D%0AMensaje:%0D%0A${mensaje}`;
 
         // Cambiar este correo por el mio
-        const to = 'luis.gutierrez.zuniga@est.una.ac.cr';
+        const to = 'correo@ejemplo.com';
         window.location.href = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${body}`;
     });
 })();
