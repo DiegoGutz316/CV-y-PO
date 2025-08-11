@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ing. Luis Gutiérrez — Currículum & Portafolio</title>
+    <meta name="description" content="Currículum vitae y portafolio de proyectos de un ingeniero en sistemas." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="skip-link"><a href="#main">Saltar al contenido</a></div>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#inicio" aria-label="Ir al inicio">
+                <span class="brand__logo" aria-hidden="true">LG</span>
+                <strong>Ing. Diego Gutiérrez</strong>
+            </a>
+
+            <button class="btn btn--ghost" id="themeToggle" aria-pressed="false"
+                aria-label="Cambiar tema claro/oscuro">🌓</button>
+
+            <nav class="site-nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#educacion">Educación</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#idiomas">Idiomas</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="site-main">
+        <section id="inicio" class="section hero" aria-labelledby="presentacion-title">
+            <div class="container grid-2">
+                <div>
+                    <h1 id="presentacion-title">Ingeniero en Sistemas — Desarrollador Full-Stack</h1>
+                    <p class="lead">Soy un ingeniero en sistemas enfocado en crear soluciones web seguras, performantes
+                        y accesibles. Disfruto diseñar arquitecturas limpias, APIs robustas y experiencias de usuario
+                        fluidas.</p>
+                    <ul class="hero-highlights">
+                        <li>+3 años construyendo apps con HTML, CSS, JS, C# y SQL</li>
+                        <li>Interés en ciberseguridad y DevOps</li>
+                        <li>Trabajo en equipo, comunicación y aprendizaje continuo</li>
+                    </ul>
+                    <div class="hero-cta">
+                        <a class="btn" href="#portafolio">Ver portafolio</a>
+                        <a class="btn btn--ghost" href="#contacto">Contactar</a>
+                    </div>
+                </div>
+                <aside class="card profile" aria-label="Información lateral">
+                    <img class="avatar" src="perfi.jpeg" alt="Foto de perfil de Diego Gutiérrez" />
+                    <div class="profile-body">
+                        <h2 class="h3">Información rápida</h2>
+                        <ul class="meta-list">
+                            <li><strong>Ubicación:</strong> Santa Cruz, Guanacaste, CR</li>
+                            <li><strong>Email:</strong> luis.gutierrez.zuniga@est.una.ac.cr</li>
+                            <li><strong>Teléfono:</strong> +506 8888 8888</li>
+                            <li><strong>Disponibilidad:</strong> Part-time/Remoto</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="educacion" class="section" aria-labelledby="educacion-title">
+            <div class="container">
+                <h2 id="educacion-title">Educación</h2>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <h3>Bachillerato en Ingeniería en Sistemas</h3>
+                        <p class="muted">Universidad Nacional de Costa Rica — 2021-2025</p>
+                        <p>Énfasis en desarrollo web, estructuras de datos, bases de datos y arquitectura de software.
+                        </p>
+                    </article>
+                    <article class="timeline-item">
+                        <h3>Certificación — Fundamentos de Ciberseguridad</h3>
+                        <p class="muted">Plataforma en línea — 2024</p>
+                        <p>OWASP Top 10, hardening básico, autenticación y autorización segura.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="section" aria-labelledby="experiencia-title">
+            <div class="container">
+                <h2 id="experiencia-title">Experiencia</h2>
+                <div class="cards grid-3">
+                    <article class="card">
+                        <header class="card__header">
+                            <h3>Práctica Profesional — Desarrollador Web</h3>
+                            <p class="muted">Empresa Bac • 2024</p>
+                        </header>
+                        <ul class="checklist">
+                            <li>Construcción de landing pages accesibles (HTML semántico).</li>
+                            <li>Optimización de rendimiento (Core Web Vitals).</li>
+                            <li>Soporte a despliegues en Netlify y GitHub Pages.</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <header class="card__header">
+                            <h3>Asistente de Investigación</h3>
+                            <p class="muted">Laboratorio de Software • 2023</p>
+                        </header>
+                        <ul class="checklist">
+                            <li>Prototipos en JavaScript vanilla y APIs REST con .NET.</li>
+                            <li>Diseño de bases de datos en SQLite y SQL Server.</li>
+                            <li>Pruebas unitarias y documentación técnica.</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <header class="card__header">
+                            <h3>Freelance — Mantenimiento de Sitios</h3>
+                            <p class="muted">Autónomo • 2023-2025</p>
+                        </header>
+                        <ul class="checklist">
+                            <li>Corrección de bugs y mejoras de SEO.</li>
+                            <li>Automatización simple con scripts de despliegue.</li>
+                            <li>Gestión de dominios y certificados TLS.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section" aria-labelledby="habilidades-title">
+            <div class="container">
+                <h2 id="habilidades-title">Habilidades</h2>
+                <div class="skills grid-4">
+                    <div class="skill">
+                        <h3>Front-End</h3>
+                        <p>HTML, CSS, JavaScript, Responsive, Accesibilidad</p>
+                    </div>
+                    <div class="skill">
+                        <h3>Back-End</h3>
+                        <p>C#, .NET, Node.js (básico), REST APIs</p>
+                    </div>
+                    <div class="skill">
+                        <h3>Datos</h3>
+                        <p>SQL Server, SQLite, Diseño relacional</p>
+                    </div>
+                    <div class="skill">
+                        <h3>Dev & Sec</h3>
+                        <p>Git/GitHub, CI/CD básico, OWASP Top 10</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="idiomas" class="section" aria-labelledby="idiomas-title">
+            <div class="container">
+                <h2 id="idiomas-title">Idiomas</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Idioma</th>
+                            <th>Nivel</th>
+                            <th>Certificación (si aplica)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Español</td>
+                            <td>Nativo</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td>Inglés</td>
+                            <td>B2</td>
+                            <td>INA</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="portafolio" class="section" aria-labelledby="portafolio-title">
+            <div class="container">
+                <h2 id="portafolio-title">Portafolio</h2>
+                <p class="muted">Proyectos destacados que demuestran mis habilidades y experiencia.</p>
+
+                <div class="projects grid-3">
+                    <!-- Proyecto 1 -->
+                    <article class="card project">
+                        <img src="imagen1.png" alt="Imagen ilustrativa del Proyecto 1" class="project__img" />
+                        <div class="card__body">
+                            <h3>Proyecto 1 — <span class="muted">Api Pokemon</span></h3>
+                            <p>API REST .NET 8 - Consulta de Pokémon
+                                Desarrollo de API en C# con ASP.NET Core Web API para consultar información de Pokémon
+                                desde un servicio externo. Implementa inyección de dependencias, consumo de datos con
+                                HttpClient y documentación interactiva con Swagger.
+                                Rol: Programación backend, configuración de servicios y endpoints, integración de API
+                                externa y pruebas de funcionalidad.
+                                Tecnologías: C#, ASP.NET Core 8, HttpClient, Swagger, Newtonsoft.Json.</p>
+                            <div class="project__links">
+                                <a class="btn btn--ghost" href="https://github.com/DiegoGutz316/Examen-progra-2.git"
+                                    aria-label="Enlace al repositorio" title="Agrega aquí el link de GitHub">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Proyecto 2 -->
+                    <article class="card project">
+                        <img src="imagen2.png" alt="Imagen ilustrativa del Proyecto 2" class="project__img" />
+                        <div class="card__body">
+                            <h3>Proyecto 2 — <span class="muted">Matriculas</span></h3>
+                            <p>Implementa un sistema de gestión de matrículas en C++, siguiendo el paradigma
+                                de programación orientada a objetos.
+                                Rol: Se diseñó la arquitectura de clases, implementó la lógica de negocio y el
+                                sistema de persistencia en archivos. Además, se desarrolló la interfaz de consola, se
+                                integró
+                                el manejo de menús y validaciones de entrada, y optimizó el flujo de datos entre las
+                                clases para garantizar coherencia e integridad en el sistema.
+                            </p>
+                            <div class="project__links">
+                                <a class="btn btn--ghost" href="https://github.com/DiegoGutz316/Proyecto-Matricula"
+                                    title="Agrega aquí el link de GitHub">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Proyecto 3 -->
+                    <article class="card project">
+                        <img src="imagen3.png" alt="Imagen ilustrativa del Proyecto 3" class="project__img" />
+                        <div class="card__body">
+                            <h3>Proyecto 3 — <span class="muted">Arboles Binarios</span></h3>
+                            <p>Este programa en C++ implementa y gestiona estructuras de datos dinámicas, incluyendo
+                                árboles binarios y colas enlazadas. Permite al usuario insertar, buscar, recorrer (en
+                                preorden, inorden y postorden) y eliminar nodos en un árbol binario, así como gestionar
+                                datos en una cola con operaciones de inserción y eliminación. Incluye funciones para
+                                mostrar el árbol en consola de forma visual, destacando nodos específicos y contando
+                                elementos.</p>
+                            <div class="project__links">
+
+                                <a class="btn btn--ghost" href="https://github.com/DiegoGutz316/Arboles-Binarios"
+                                    title="Agrega aquí el link de GitHub">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section" aria-labelledby="contacto-title">
+            <div class="container grid-2">
+                <div>
+                    <h2 id="contacto-title">Contacto</h2>
+                    <p>Completa el formulario y se abrirá tu cliente de correo con el mensaje preparado.</p>
+                    <form id="contactForm" novalidate>
+                        <div class="form-row">
+                            <label for="nombre">Nombre</label>
+                            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+                            <small class="error" data-error-for="nombre"></small>
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Correo</label>
+                            <input id="email" name="email" type="email" placeholder="tucorreo@example.com" required />
+                            <small class="error" data-error-for="email"></small>
+                        </div>
+                        <div class="form-row">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿En qué puedo ayudarte?"
+                                required></textarea>
+                            <small class="error" data-error-for="mensaje"></small>
+                        </div>
+                        <button class="btn" type="submit">Enviar</button>
+                    </form>
+                </div>
+
+                <aside class="card">
+                    <div class="card__body">
+                        <h3 class="h4">También puedes escribirme</h3>
+                        <ul class="meta-list">
+                            <li><strong>Email:</strong> luis.gutierrez.zuniga@est.una.ac.cr</li>
+                            <li><strong>LinkedIn:</strong> <a href="#">enlace</a></li>
+                            <li><strong>GitHub:</strong> <a href="https://github.com/DiegoGutz316">enlace</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Diego Gutiérrez — Currículum & Portafolio</p>
+            <a class="btn btn--ghost" href="#inicio">Volver arriba</a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
