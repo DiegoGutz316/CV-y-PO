@@ -28,13 +28,3 @@ Este proyecto es un sitio web personal de una sola página que combina un currí
    cd CV-y-PO
    ```
 3. Abre `index.html` en tu navegador.
-
-## Uso
-
-- Personaliza la información en `index.html` (nombre, contacto, educación, experiencia, habilidades, idiomas).
-- En la sección **Portafolio**, sustituye las imágenes y añade los enlaces reales de tus proyectos.
-- En `app.js`, reemplaza el correo `correo@ejemplo.com` por tu dirección de correo real para el formulario.
-
-## Licencia
-
-Este proyecto está licenciado para uso académico y personal. Puedes modificarlo y adaptarlo según tus necesidades, pero no se permite su uso comercial sin autorización previa.
